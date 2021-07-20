@@ -25,7 +25,7 @@ namespace SchoolLibrary
             get { return _tweet; }
             set
             {
-                if (value.StartsWith("@"))
+                if (value.StartsWith("@k"))
                 {
                     _tweet = value;
                 }
